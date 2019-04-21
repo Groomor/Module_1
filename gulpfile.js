@@ -4,7 +4,7 @@ const sourcemaps = require('gulp-sourcemaps');
 const watch = require('gulp-watch');
 
 
-    gulp.task('sass', function () {
+gulp.task('sass', function () {
     return gulp.src('./sass/**/*.sass')
         .pipe(sourcemaps.init())
         .pipe(sass().on('error', sass.logError))
@@ -15,3 +15,4 @@ const watch = require('gulp-watch');
 gulp.task('watch', function () {
     gulp.watch('./sass/**/*.sass', gulp.series('sass'));
 });
+
