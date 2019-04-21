@@ -1,9 +1,6 @@
 * {
-  box-sizing: border-box; }
-
-body {
-  max-width: 1000px;
-  margin: 0 auto; }
+  box-sizing: border-box;
+  width: auto; }
 
 .top-navbar {
   display: flex;
@@ -84,7 +81,7 @@ body {
 .imaginative {
   background-color: #ebebeb;
   display: flex;
-  padding-bottom: 100px; }
+  padding-bottom: 45px; }
 
 .logo {
   display: flex;
@@ -143,15 +140,18 @@ body {
   line-height: 14.4px;
   margin-right: 20px; }
 
+.novbar {
+  background: #ebebeb;
+  padding-bottom: 70px; }
+
 .mid-novbar {
   display: flex;
   flex-direction: row;
   align-content: center;
   justify-content: space-between;
-  padding: 0 20px;
+  margin: 0 20px;
   background-color: #97455f;
   height: 50px;
-  display: flex;
   align-items: center; }
 
 .main-novbar a {
@@ -168,5 +168,14 @@ body {
   width: 100%;
   display: flex;
   justify-content: space-around; }
+
+#carouselExampleControls {
+  margin: auto;
+  height: 350px;
+  width: 900px; }
+
+.carousel-item img {
+  height: 350px;
+  width: 900px; }
 
 /*# sourceMappingURL=style.css.map */
